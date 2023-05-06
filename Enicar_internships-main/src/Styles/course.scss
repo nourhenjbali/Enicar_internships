@@ -1,0 +1,66 @@
+@import "./constant";
+@import "./variables";
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    
+    &.fadeInDown {
+      animation-name: fadeInDown;
+    }
+  }
+  
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+
+.course_manage {
+  background: $secondary-color;
+  padding: $ex-gap $md-gap;
+  @include flexDirection;
+  gap: 0rem;
+
+
+
+}
+
+.title_course{
+    @extend .animated;
+    @extend .fadeInDown;
+    h1.course {
+        border-bottom: 2px solid #2b6eff;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+        color: #fff;
+      }
+    
+}
+
+.course-edit-form {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 400px;
+  height: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .course_manage {
+    height: 100%;
+    overflow: scroll;
+  }
+  .MuiDataGrid-root {
+    height: auto !important;
+  }
+}

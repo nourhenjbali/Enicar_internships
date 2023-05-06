@@ -1,0 +1,36 @@
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    
+    &.fadeInDown {
+      animation-name: fadeInDown;
+    }
+  }
+  
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -100%, 0);
+    }
+  
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  .title_intern {
+    @extend .animated;
+    @extend .fadeInDown;
+    h1.internh1 {
+        border-bottom: 2px solid #fff;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+      }
+    
+      h2.internh2 {
+        margin-top: 30px;
+      }
+
+    /* Add your styles here */
+  }
+

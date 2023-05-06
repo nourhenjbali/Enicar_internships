@@ -1,0 +1,8 @@
+id,Name,Speciality,Place,Email,Phone ,capacity,description,Apply
+1,ABC Company,Specialization,,abc@example.com,25-456-789,0,Job Description,
+2,TALAN,Specialization,,TALAN@example.com,26-456-789,0,Job Description,
+3,xxxCompany,frontend,,xxx@example.com,25-476-789,0,Job Description,
+4,yyyCompany,backend,,yyy@example.com,25-476-789,0,Job Description,
+5,xxxCompany,data mining,,xxx@example.com,25-476-789,0,Job Description,
+6,xxxCompany,data mining,,xxx@example.com,25-476-789,0,Job Description,
+7,jjjCompany,deep learning ,,jjjj@example.com,25-488-789,0,Job Description,
