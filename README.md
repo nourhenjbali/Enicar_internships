@@ -4,3 +4,4 @@ this project contient both Front-end and Back-end Folders
 Front-end : Reactjs
 Backend : Spring Boot 
 DataBase : MySQL
+The folder Projet_web-main contient the backend
